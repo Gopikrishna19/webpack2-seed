@@ -4,11 +4,11 @@
   "description": "Learning to write progressive web applications",
   "main": "index.js",
   "scripts": {
-    "build": "webpack -p",
+    "build": "webpack",
     "git:push-tags": "git push --all origin --follow-tags",
     "git:deploy": "git subtree push --prefix dist origin gh-pages",
     "postversion": "npm run build && npm run git:deploy && npm run git:push-tags",
-    "start": "webpack-dev-server"
+    "start": "webpack-dev-server --env.dev"
   },
   "author": "Gopikrishna Sathyamurthy",
   "license": "ISC",
