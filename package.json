@@ -1,7 +1,7 @@
 {
-  "name": "learning-progressive",
+  "name": "webpack2-seed",
   "version": "0.0.0",
-  "description": "Learning to write progressive web applications",
+  "description": "Webpack2 starter kit",
   "main": "index.js",
   "scripts": {
     "build": "webpack",
@@ -14,7 +14,6 @@
   "author": "Gopikrishna Sathyamurthy",
   "license": "ISC",
   "dependencies": {
-    "material-design-lite": "1.3.0"
   },
   "devDependencies": {
     "babel-core": "6.23.1",
