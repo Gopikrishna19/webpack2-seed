@@ -8,27 +8,27 @@ module.exports = env => {
     entry: [
       './src/index.js'
     ],
-    output: {
-      path: __dirname + '/dist',
-      filename: 'index.js'
-    },
     module: {
       rules: [
         {
-          test: /\.js$/,
           exclude: /node_modules/,
           loaders: [
             'babel-loader?sourceMap'
-          ]
+          ],
+          test: /\.js$/
         },
         {
-          test: /\.scss$/,
           loader: ExtractTextPlugin.extract([
             'css-loader',
             'sass-loader'
-          ])
+          ]),
+          test: /\.scss$/
         }
       ]
+    },
+    output: {
+      filename: 'index.js',
+      path: `${__dirname}/dist`
     },
     plugins: [
       new HtmlWebpackPlugin({
