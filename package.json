@@ -1,0 +1,11 @@
+{
+  "name": "learning-progressive",
+  "version": "0.0.0",
+  "description": "Learning to write progressive web applications",
+  "main": "index.js",
+  "scripts": {
+    "postversion": "git subtree push --prefix src origin gh-pages && git push --all origin --follow-tags"
+  },
+  "author": "Gopikrishna Sathyamurthy",
+  "license": "ISC"
+}
