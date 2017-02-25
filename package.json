@@ -21,7 +21,8 @@
     "css-loader": "0.26.2",
     "extract-text-webpack-plugin": "2.0.0",
     "html-webpack-plugin": "2.28.0",
-    "scss-loader": "0.0.1",
+    "node-sass": "4.5.0",
+    "sass-loader": "6.0.2",
     "webpack": "2.2.1",
     "webpack-dev-server": "2.4.1"
   }
