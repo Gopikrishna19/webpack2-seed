@@ -7,7 +7,8 @@
     "build": "webpack -p",
     "git:push-tags": "git push --all origin --follow-tags",
     "git:deploy": "git subtree push --prefix dist origin gh-pages",
-    "postversion": "npm run build && npm run git:deploy && npm run git:push-tags"
+    "postversion": "npm run build && npm run git:deploy && npm run git:push-tags",
+    "start": "webpack-dev-server"
   },
   "author": "Gopikrishna Sathyamurthy",
   "license": "ISC",
