@@ -19,7 +19,7 @@
     "babel-core": "6.23.1",
     "babel-loader": "6.3.2",
     "css-loader": "0.26.2",
-    "eslint": "3.16.1",
+    "eslint": "6.5.1",
     "extract-text-webpack-plugin": "2.0.0",
     "html-webpack-plugin": "2.28.0",
     "node-sass": "4.5.0",
